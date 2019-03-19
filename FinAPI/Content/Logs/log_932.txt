@@ -1,0 +1,1 @@
+{"BatchId":0,"BatchNo":"932","BranchId":1635,"CurrencyId":1,"BatchType":0,"ClearingSessionid":0,"UserId":1234,"Verifier":0,"Authorizer":0,"Day2":0,"Captured":0,"Verified":0,"Authorized":0,"slip":null,"SlipList":[],"OutChequeList":[],"ChequeImagesList":[]}

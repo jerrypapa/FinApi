@@ -1,0 +1,89 @@
+﻿@model FinAPI.Models.RejectedCheque
+@using FinAPI.Models
+@using System.Security.Cryptography
+
+@{
+    ViewBag.Title = "Cheques";
+}
+@{
+    if (Session["logged_user"] == null)
+    {
+        Response.Redirect("~/Login");
+    }
+}
+<h2>Index</h2>
+<div class="card w-50" style="position:fixed;z-index: 15;left:15%;">
+    <div class="card-body">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <form action="/ViewCheque/Search" method="post" accept-charset="UTF-8" id="SearchForm">
+                        <div class="input-group">
+                            <input type="text" asp-for="search" name="search" id="search" placeholder="Search accounts and cheque no.s" class="form-control form-control-sm" required>
+                            <span class="input-group-btn">
+                                <button type="submit" name="commit" class="btn btn-outline-primary btn-sm" data-disable-with="Search" style="border-radius:0px;">Search</button>
+                            </span>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div>
+    @{ 
+        List< Cheque> checksList = ViewBag.Message;
+    }
+    <div class="" style="margin-top:20px;">
+        <!--<select class="selectpicker">
+            <option>Mustard</option>
+            <option>Ketchup</option>
+            <option>Barbecue</option>
+        </select>-->
+        
+    </div>
+    <div class="container" id="tableHolder" style="margin-top:90px;">
+        <table class="table table-bordered" id="originalTable">
+            <tr><th>Front Image</th><th>Back Image</th><th>Cheque ID</th><th>Micr</th><th>Amount</th><th>Date Issued</th><th>Action</th></tr>
+            @foreach (Cheque cheque in checksList)
+            {
+                <tr>
+                    <a href="#">
+                        <td><img src="~/Content/UploadedImages/@cheque.FImageName" width="100" height="80" /></td>
+                        <td><img src="~/Content/UploadedImages/@cheque.BImageName" width="100" height="80" /></td>
+                        <td>@cheque.ChequeName</td>
+                        <td>@cheque.scannedMicr</td>
+                        <td>@cheque.Amount</td>
+                        <td>@cheque.DateIssued</td>
+                        <td>@Html.ActionLink("View", "Edit", "ViewCheque", new { area = "", id = @cheque.ChequeName }, null)</td>
+                    </a>
+                </tr>
+            }
+        </table>
+        <table class="table table-bordered" id="searchTable"></table>
+    </div>
+</div>
+<div id="m"></div>
+<script>
+    $(function () {
+        $('#SearchForm').on('submit', function (e) {
+            e.preventDefault();
+            alert($(this).serialize());
+            var u = $(this).attr('action');
+            var m = $(this).attr('method');
+
+            alert($(this).serialize()+"\n"+u+"\n"+m);
+            /*$.ajax({
+                url: u,
+                method: m,
+                data: $(this).serialize(),
+                success: function (msg) {
+                    alert(msg);
+                },
+                error: function () {
+                    alert('Error occured!');
+                }
+            });*/
+        });
+    });
+</script>

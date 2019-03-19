@@ -1,0 +1,167 @@
+
+1/1/0001 12:00:00 AM
+Batch JSON received
+2019-03-19T12:26:15+03:00
+Batch Inserted batchok
+1/1/0001 12:00:00 AM
+Slip :983
+1/1/0001 12:00:00 AM
+slipok :983 
+1/1/0001 12:00:00 AM 
+Outcheque :20190319122505 
+1/1/0001 12:00:00 AM 
+outchequeok :20190319122505 
+1/1/0001 12:00:00 AM
+ChequeImagesList.Count :2 
+1/1/0001 12:00:00 AM
+ChequeImage :20190319122505 Facefront 
+1/1/0001 12:00:00 AM
+ChequeImage ImageFace :front 
+1/1/0001 12:00:00 AM
+chequeimage_inserted :20190319122505 chequeimageok 
+1/1/0001 12:00:00 AM
+Front BnW:20190319122505 
+1/1/0001 12:00:00 AM
+Front BnW ChequeImage  :20190319122505 chequeimageok 
+1/1/0001 12:00:00 AM
+ChequeImage :20190319122505 Faceback 
+1/1/0001 12:00:00 AM
+ChequeImage ImageFace :back 
+1/1/0001 12:00:00 AM
+chequeimage_inserted :20190319122505 chequeimageok
+1/1/0001 12:00:00 AM
+Batch JSON received
+2019-03-19T12:33:04+03:00
+Batch Inserted batchok
+1/1/0001 12:00:00 AM
+Slip :352
+1/1/0001 12:00:00 AM
+slipok :352 
+1/1/0001 12:00:00 AM 
+Outcheque :20190319122937 
+1/1/0001 12:00:00 AM 
+outchequeok :20190319122937 
+1/1/0001 12:00:00 AM
+ChequeImagesList.Count :4 
+1/1/0001 12:00:00 AM
+ChequeImage :20190319122937 Facefront 
+1/1/0001 12:00:00 AM
+ChequeImage ImageFace :front 
+1/1/0001 12:00:00 AM
+chequeimage_inserted :20190319122937 chequeimageok 
+1/1/0001 12:00:00 AM
+Front BnW:20190319122937 
+1/1/0001 12:00:00 AM
+Front BnW ChequeImage  :20190319122937 chequeimageok 
+1/1/0001 12:00:00 AM
+ChequeImage :20190319123047 Facefront 
+1/1/0001 12:00:00 AM
+ChequeImage ImageFace :front 
+1/1/0001 12:00:00 AM
+ChequeImage :20190319122937 Faceback 
+1/1/0001 12:00:00 AM
+ChequeImage ImageFace :back 
+1/1/0001 12:00:00 AM
+chequeimage_inserted :20190319122937 chequeimageok 
+1/1/0001 12:00:00 AM
+ChequeImage :20190319123047 Faceback 
+1/1/0001 12:00:00 AM
+ChequeImage ImageFace :back 
+1/1/0001 12:00:00 AM 
+Outcheque :20190319123047
+1/1/0001 12:00:00 AM
+Slip :286
+1/1/0001 12:00:00 AM
+slipok :286 
+1/1/0001 12:00:00 AM 
+Outcheque :20190319122937 
+1/1/0001 12:00:00 AM 
+Outcheque :20190319123047 
+1/1/0001 12:00:00 AM 
+outchequeok :20190319123047 
+1/1/0001 12:00:00 AM
+ChequeImagesList.Count :4 
+1/1/0001 12:00:00 AM
+ChequeImage :20190319122937 Facefront 
+1/1/0001 12:00:00 AM
+ChequeImage ImageFace :front 
+1/1/0001 12:00:00 AM
+ChequeImage :20190319123047 Facefront 
+1/1/0001 12:00:00 AM
+ChequeImage ImageFace :front 
+1/1/0001 12:00:00 AM
+chequeimage_inserted :20190319123047 chequeimageok 
+1/1/0001 12:00:00 AM
+Front BnW:20190319123047 
+1/1/0001 12:00:00 AM
+Front BnW ChequeImage  :20190319123047 chequeimageok 
+1/1/0001 12:00:00 AM
+ChequeImage :20190319122937 Faceback 
+1/1/0001 12:00:00 AM
+ChequeImage ImageFace :back 
+1/1/0001 12:00:00 AM
+ChequeImage :20190319123047 Faceback 
+1/1/0001 12:00:00 AM
+ChequeImage ImageFace :back 
+1/1/0001 12:00:00 AM
+chequeimage_inserted :20190319123047 chequeimageok
+1/1/0001 12:00:00 AM
+Batch JSON received
+2019-03-19T13:57:34+03:00
+Batch Inserted batchok
+1/1/0001 12:00:00 AM
+Slip :717
+1/1/0001 12:00:00 AM
+slipok :717 
+1/1/0001 12:00:00 AM 
+Outcheque :20190319135635 
+1/1/0001 12:00:00 AM 
+outchequeok :20190319135635 
+1/1/0001 12:00:00 AM
+ChequeImagesList.Count :2 
+1/1/0001 12:00:00 AM
+ChequeImage :20190319135635 Facefront 
+1/1/0001 12:00:00 AM
+ChequeImage ImageFace :front 
+1/1/0001 12:00:00 AM
+chequeimage_inserted :20190319135635 chequeimageok 
+1/1/0001 12:00:00 AM
+Front BnW:20190319135635 
+1/1/0001 12:00:00 AM
+Front BnW ChequeImage  :20190319135635 chequeimageok 
+1/1/0001 12:00:00 AM
+ChequeImage :20190319135635 Faceback 
+1/1/0001 12:00:00 AM
+ChequeImage ImageFace :back 
+1/1/0001 12:00:00 AM
+chequeimage_inserted :20190319135635 chequeimageok
+1/1/0001 12:00:00 AM
+Batch JSON received
+2019-03-19T15:50:38+03:00
+Batch Inserted batchok
+1/1/0001 12:00:00 AM
+Slip :733
+1/1/0001 12:00:00 AM
+slipok :733 
+1/1/0001 12:00:00 AM 
+Outcheque :20190319154958 
+1/1/0001 12:00:00 AM 
+outchequeok :20190319154958 
+1/1/0001 12:00:00 AM
+ChequeImagesList.Count :2 
+1/1/0001 12:00:00 AM
+ChequeImage :20190319154958 Facefront 
+1/1/0001 12:00:00 AM
+ChequeImage ImageFace :front 
+1/1/0001 12:00:00 AM
+chequeimage_inserted :20190319154958 chequeimageok 
+1/1/0001 12:00:00 AM
+Front BnW:20190319154958 
+1/1/0001 12:00:00 AM
+Front BnW ChequeImage  :20190319154958 chequeimageok 
+1/1/0001 12:00:00 AM
+ChequeImage :20190319154958 Faceback 
+1/1/0001 12:00:00 AM
+ChequeImage ImageFace :back 
+1/1/0001 12:00:00 AM
+chequeimage_inserted :20190319154958 chequeimageok

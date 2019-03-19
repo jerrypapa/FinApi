@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinAPI", "FinAPI\FinAPI.csproj", "{A4C50B19-51EC-498C-924B-BC5050425CDE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sms", "Sms\Sms.csproj", "{36454A4C-7FD6-42D4-A602-B043B25E1539}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A4C50B19-51EC-498C-924B-BC5050425CDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4C50B19-51EC-498C-924B-BC5050425CDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4C50B19-51EC-498C-924B-BC5050425CDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4C50B19-51EC-498C-924B-BC5050425CDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36454A4C-7FD6-42D4-A602-B043B25E1539}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36454A4C-7FD6-42D4-A602-B043B25E1539}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36454A4C-7FD6-42D4-A602-B043B25E1539}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36454A4C-7FD6-42D4-A602-B043B25E1539}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
